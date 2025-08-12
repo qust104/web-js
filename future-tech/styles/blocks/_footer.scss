@@ -76,7 +76,7 @@
       &-item {
         &:not(:last-child)::after {
           content: '|';
-          margin-inline: rem(1);
+          margin-inline: fluid(11, 8);
         }
       }
     }
